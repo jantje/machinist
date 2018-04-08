@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="io.sloeber.core.toolChain.release.629945247">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.629945247" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.629945247" name="Release" parent="org.eclipse.cdt.build.core.emptycfg" prebuildStep="cmd /c &quot;if not exist  sketch mkdir sketch &amp; type NUL &gt; sketch/build_opt.h">
+					<folderInfo id="io.sloeber.core.toolChain.release.629945247.446622533" name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.1138248070" name="Arduino Toolchain (Sloeber editie)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.658989012" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/machinistTool}/Release" id="io.sloeber.sketch.builder.1049591014" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.1287020726" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.1318156362" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/BlinkLed}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/FastRunningMedian}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/VoltMeter}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/SoftPWM}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.247702671" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.337196357" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.1015576681" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/BlinkLed}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/FastRunningMedian}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/VoltMeter}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/SoftPWM}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.259640780" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.1521949681" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.1909168484" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/BlinkLed}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/FastRunningMedian}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/VoltMeter}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/SoftPWM}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.270970178" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.73771593" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.1911728665" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.1147767100" name="Arduino tool Create eeprom" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.528830908" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries/gtest/gtest|libraries/LiquidCrystal/docs|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries/**/._*|libraries/?*/utility/*/*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="io.sloeber.core.toolChain.release.629945247.1791457202">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.629945247.1791457202" moduleId="org.eclipse.cdt.core.settings" name="unitTest">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.629945247.1791457202" name="unitTest" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="io.sloeber.core.toolChain.release.629945247.1791457202." name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.1617690736" name="Arduino Toolchain (Sloeber editie)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.1517056670" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/machinistTool}/Release" id="io.sloeber.sketch.builder.1281507882" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.452008542" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.1942848920" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/BlinkLed}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/FastRunningMedian}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/VoltMeter}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.209849988" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.1406551890" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.788281167" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/BlinkLed}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/FastRunningMedian}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/VoltMeter}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.111834243" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.1216355682" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.649271811" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/BlinkLed}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/FastRunningMedian}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/VoltMeter}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.9049667" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.1303586558" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.203965816" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.1976325499" name="Arduino tool Create eeprom" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.1265122689" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries/gtest/gtest|libraries/LiquidCrystal/docs|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries/**/._*|libraries/?*/utility/*/*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="io.sloeber.core.toolChain.release.629945247.1791457202.850885122">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.629945247.1791457202.850885122" moduleId="org.eclipse.cdt.core.settings" name="localdebug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.629945247.1791457202.850885122" name="localdebug" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="io.sloeber.core.toolChain.release.629945247.1791457202.850885122." name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.1639146408" name="Arduino Toolchain (Sloeber editie)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.1428147742" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/machinistTool}/Release" id="io.sloeber.sketch.builder.452040174" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.437130229" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.2114915425" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/BlinkLed}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/FastRunningMedian}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.1939864536" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.1804947329" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.1017077278" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/BlinkLed}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/FastRunningMedian}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.1266214730" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.2117457724" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.57147093" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/BlinkLed}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/FastRunningMedian}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.1858522420" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.811353509" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.86205476" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.736896106" name="Arduino tool Create eeprom" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.605798827" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries/gtest/gtest|libraries/LiquidCrystal/docs|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries/**/._*|libraries/?*/utility/*/*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="machinistTool.null.199085496" name="machinistTool"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="unitTest">
+			<resource resourceType="PROJECT" workspacePath="/machinistTool"/>
+		</configuration>
+		<configuration configurationName="localdebug">
+			<resource resourceType="PROJECT" workspacePath="/machinistTool"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/machinistTool"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
