@@ -12,7 +12,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.629945247" name="Release" parent="org.eclipse.cdt.build.core.emptycfg" prebuildStep="cmd /c &quot;if not exist  sketch mkdir sketch &amp; type NUL &gt; sketch/build_opt.h">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.629945247" name="Release" parent="org.eclipse.cdt.build.core.emptycfg" prebuildStep="">
 					<folderInfo id="io.sloeber.core.toolChain.release.629945247.446622533" name="/" resourcePath="">
 						<toolChain id="io.sloeber.core.toolChain.release.1138248070" name="Arduino Toolchain (Sloeber editie)" superClass="io.sloeber.core.toolChain.release">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.658989012" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
@@ -29,6 +29,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/VoltMeter}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/SoftPWM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.cpp.sketch.input.247702671" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
 							</tool>
@@ -44,6 +45,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/VoltMeter}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/SoftPWM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.c.sketch.input.259640780" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
 							</tool>
@@ -59,6 +61,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/gtest}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/VoltMeter}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/SoftPWM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/machinistTool/libraries/LiquidCrystal/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.S.sketch.input.270970178" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
 							</tool>

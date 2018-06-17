@@ -54,7 +54,7 @@
 		<link>
 			<name>libraries/LiquidCrystal</name>
 			<type>2</type>
-			<location>C:/Users/jan/git/marvinLibraries/libraries/LiquidCrystal</location>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/LiquidCrystal/1.0.4</locationURI>
 		</link>
 		<link>
 			<name>libraries/SoftPWM</name>
